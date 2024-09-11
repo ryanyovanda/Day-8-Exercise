@@ -95,9 +95,10 @@ public class Main {
     }
 
     private void initializeEvents() {
-        events.add(new Event("Concert A", "2024-10-01", 50));
-        events.add(new Event("Concert B", "2024-10-15", 100));
-        events.add(new Event("Theater C", "2024-11-05", 75));
+        events.add(new Event("Concert A : Bruno Mars \t ", "2024-10-01", 50));
+        events.add(new Event("Concert B : New Jeans \t ", "2024-10-15", 100));
+        events.add(new Event("Concert C : YOASOBI \t \t ", "2024-11-05", 75));
+        events.add(new Event("Theater D : DJ Remix Angkot", "2024-11-05", 75));
     }
 
     public void displayEvents() {
